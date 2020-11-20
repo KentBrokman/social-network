@@ -1,0 +1,101 @@
+.users {
+    height: 100%
+;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonFriends {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.preloader {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.usersBar {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 30px;
+
+    background-color: #7FC5E2;
+}
+
+.usersList {
+    /*height: 504px;*/
+    margin: -2px 15px 20px 15px;
+    /*padding-right: 10px;*/
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    overflow: auto;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+    height: 68px;
+
+    border-radius: 20px;
+    border: 2px solid #CBDDEE;
+
+    transition: background-color .2s;
+}
+.user a {
+    text-decoration: none;
+}
+.user:hover {
+    /*border-color: #2B87AE;*/
+    /*background: linear-gradient(to left, #E9EFF6, #CBDDEE);*/
+    background-color: rgba(127,197,226,0.5);
+}
+.userBody {
+    display: flex;
+
+    margin-left: 20px;
+
+    cursor: pointer;
+}
+.userPhoto {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+
+    border-radius: 20px;
+}
+
+.userDescription {
+    width: 254px;
+    height: 50px;
+
+    border-radius: 20px;
+    background-color: #68D0CA;
+
+    font-size: 14px;
+    color: black;
+    line-height: 18px;
+}
+.userName {
+    margin: 8px 0 0 10px;
+
+    font-weight: 700;
+}
+.userStatus {
+    margin: 0 0 0 10px;
+
+    font-style: italic;
+}
+
+.statusCap {
+    color: #9A9A9A;
+}

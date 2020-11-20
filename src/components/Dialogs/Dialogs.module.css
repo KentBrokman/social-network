@@ -1,0 +1,76 @@
+.dialogsContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialogsContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.dialogs {
+    height: 90%;
+    width: 90%;
+    padding-right: 10px;
+
+    overflow: auto;
+    /*background-color: pink;*/
+}
+
+.dialog {
+    height: 86px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    transition: background-color .2s;
+
+    cursor: pointer;
+}
+.dialog:hover {
+    background-color: #7FC5E2;
+}
+
+.dialogBody {
+    display: flex;
+
+    margin-left: 13px;
+}
+.dialogBody img {
+    height: 60px;
+    width: 60px;
+
+    border-radius: 20px;
+}
+.dialogDescription {
+    margin-left: 13px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: red;*/
+}
+.dialogName {
+    font-weight: 700;
+}
+
+.dialogNewMessCount {
+    margin-right: 36px;
+    width: 26px;
+    height: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #17A8E6;
+    border-radius: 50%;
+}

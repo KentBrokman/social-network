@@ -1,0 +1,101 @@
+.loginContainer {
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.annotation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    width: 250px;
+}
+.annotationText {
+    padding: 6px;
+    border-radius: 20px;
+    background: #E9EFF6;
+}
+/*.annotationText div {*/
+/*    font-weight: 700;*/
+/*}*/
+
+.loginContainer form {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginTitle {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 82px;
+}
+
+.emailPassForm input {
+    display: block;
+    width: 270px;
+    height: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+
+    line-height: 20px;
+    border-width: 0;
+    border-radius: 20px;
+    /*border-color: #17A8E5;*/
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.captha {
+    display: flex;
+    flex-direction: column;
+}
+.captha img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.captha input {
+    display: block;
+    width: 160px;
+    height: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+
+    line-height: 20px;
+    border-width: 0;
+    border-radius: 20px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.rememberMeForm {
+    display: flex;
+    margin-bottom: 10px;
+}
+.rememberMeForm input {
+    margin-right: 5px;
+}
+
+.error {
+    position: absolute;
+    top: calc(100% + 10px);
+    padding: 5px;
+
+    color: red;
+    border-radius: 20px;
+    border: 2px solid red;
+}

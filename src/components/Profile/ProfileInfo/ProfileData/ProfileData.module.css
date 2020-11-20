@@ -1,0 +1,72 @@
+.profileData {
+    grid-area: extra;
+
+    display: grid;
+    grid-template-areas:
+        'ai c';
+    grid-template-columns: 3fr 5fr;
+
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.aboutInfo {
+    grid-area: ai;
+}
+
+.contacts {
+    grid-area: c;
+
+    height: 350px;
+    margin-left: 8px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.profileData textarea {
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    background: #E9EFF6;
+
+    line-height: 20px;
+    border-width: 0;
+    border-radius: 20px;
+    resize: none;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+
+    outline: 0;
+}
+.profileData input {
+    display: block;
+    width: 130px;
+    height: 20px;
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    background: #E9EFF6;
+
+    line-height: 20px;
+    border-width: 0;
+    border-radius: 20px;
+    resize: none;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+
+    outline: 0;
+}
+.checkbox input{
+    width: 20px;
+}
+
+.contactsTytle {
+    display: flex;
+}
+
+

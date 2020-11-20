@@ -1,0 +1,74 @@
+
+.appWrapper {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Nunito;
+    font-size: 16px;
+
+    display: grid;
+    grid-template-areas:
+        'h h'
+        's c';
+    grid-template-rows: 110px 1fr;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 30px;
+}
+
+.appWrapperContent {
+    position: relative;
+    grid-area: c;
+    /*height: 620px;*/
+    /*overflow: auto;*/
+    background: #CBDDEE;
+    border-radius: 20px;
+}
+
+.preloader {
+    grid-area: c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #CBDDEE;
+    border-radius: 20px;
+}
+
+
+/* Полоса прокрутки */
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+}
+
+::-webkit-scrollbar-track {
+    background-color:#ecedee;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 2px;
+    background-color:#6dc0c8;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:#56999f;
+}
+
+::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+
+

@@ -1,0 +1,91 @@
+.profileInfo {
+    height: 350px;
+    margin-top: 35px;
+    padding-left: 50px;
+
+    position: relative;
+
+    display: grid;
+    grid-template-areas:
+            'main extra';
+    grid-template-columns: 3fr 6fr;
+}
+.preloader {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.mainInfo {
+    grid-area: main;
+}
+
+/*.profileData {*/
+/*    grid-area: extra;*/
+/*}*/
+
+.ava {
+    display: flex;
+}
+
+/*.photo {*/
+/*    height: 190px;*/
+/*    width: 190px;*/
+/*}*/
+.photo img {
+    height: 190px;
+    width: 190px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.setPhotoButton {
+    align-self: flex-end;
+
+    margin-left: 14px;
+    height: 28px;
+    width: 28px;
+
+    background-color: #1C4A42;
+    border-radius: 20px;
+    border: 2px solid #1C4A42;
+
+    cursor: pointer;
+}
+.setPhotoButton .buttonText {
+    padding-top: 7px;
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.setPhotoButton:hover {
+    background-color: #CBDDEE;
+}
+.setPhotoButton:hover .buttonText {
+    color: #1C4A42;
+}
+.setPhotoButton:active {
+    background-color: #1C4A42;
+}
+.setPhotoButton:active .buttonText {
+    color: #FFFFFF;
+}
+
+.nikName {
+    margin-top: 24px;
+
+    font-size: 30px;
+}
+

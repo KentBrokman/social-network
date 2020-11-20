@@ -1,0 +1,51 @@
+.ticTacToeContainer {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.board {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.boardRow {
+    display: flex;
+}
+
+.square {
+    height: 70px;
+    width: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #7FC5E2;
+    border: 1px solid black;
+    margin-right: -1px;
+    margin-top: -1px;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    cursor: pointer;
+}
+.square:hover {
+    background-color: #81A7E0;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.winner {
+    color: #FD4C4C;
+}
+
+

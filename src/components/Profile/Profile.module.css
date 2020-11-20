@@ -1,0 +1,49 @@
+.profile {
+    position: relative;
+    height: 100%;
+}
+
+.line {
+    width: 750px;
+    height: 1px;
+    background: #81A7E0;
+    margin: 0 auto;
+}
+
+.error {
+    width: 40%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: wheat;
+    border: solid 4px red;
+    border-radius: 20px;
+
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+}
+.errorInner {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+.errorButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 25px;
+    height: 25px;
+}
+.errorButton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

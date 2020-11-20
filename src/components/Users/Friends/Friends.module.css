@@ -1,0 +1,91 @@
+.friends {
+    height: 100%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonFriends {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+/*.friendsBar {*/
+/*    margin-top: 40px;*/
+/*    margin-bottom: 30px;*/
+/*    height: 30px;*/
+
+/*    background-color: #7FC5E2;*/
+/*}*/
+
+.friendsList {
+    margin: 100px 15px 20px 15px;
+    padding-right: 10px;
+
+    overflow: auto;
+}
+.friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+    height: 68px;
+
+    border-radius: 20px;
+    border: 2px solid #CBDDEE;
+
+    transition: background-color .2s;
+}
+.friend a {
+    text-decoration: none;
+}
+.friend:hover {
+    /*border-color: #2B87AE;*/
+    /*background: linear-gradient(to left, #E9EFF6, #CBDDEE);*/
+    background-color: rgba(127,197,226,0.5);
+}
+.friendBody {
+    display: flex;
+
+    margin-left: 20px;
+
+    cursor: pointer;
+}
+.friendPhoto {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+
+    border-radius: 20px;
+}
+
+.friendDescription {
+    width: 254px;
+    height: 50px;
+
+    border-radius: 20px;
+    background-color: #68D0CA;
+
+    font-size: 14px;
+    color: black;
+    line-height: 18px;
+
+    /*overflow: hidden;*/
+}
+.friendName {
+    margin: 8px 0 0 10px;
+
+    font-weight: 700;
+}
+.friendStatus {
+    margin: 0 0 0 10px;
+
+    font-style: italic;
+}
+.statusCap {
+    color: #9A9A9A;
+}

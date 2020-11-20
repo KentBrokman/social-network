@@ -1,0 +1,12 @@
+.sidebar {
+    grid-area: s;
+    background: #CBDDEE;
+    border-radius: 20px;
+}
+
+.line {
+    width: 170px;
+    height: 1px;
+    background: #81A7E0;
+    margin: 0 auto;
+}

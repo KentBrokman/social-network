@@ -1,0 +1,45 @@
+.paginator {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    width: 290px;
+
+    background-color: #7FC5E2;
+    border-radius: 20px;
+
+    color: white;
+}
+.page {
+    width: 23px;
+    height: 23px;
+    /*margin: 0 2px;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #7FC5E2;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+.page:hover {
+    border-color: #2B87AE;
+}
+.selectedPage {
+    background-color: #2B87AE;
+    border-color: #2B87AE;
+}
+.pageOver100 {
+    font-size: 12px;
+}

@@ -1,0 +1,46 @@
+.header {
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+
+    background: #CBDDEE;
+    border-radius: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+/*.logo {*/
+/*    height: 60%;*/
+/*}*/
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.logInOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 70px;
+    width: 70px;
+    background-color: #81A7E0;
+    border-radius: 20px;
+
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.logInOut .text {
+
+
+
+}
