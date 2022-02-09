@@ -7,6 +7,7 @@ import ProfileContainer from "./components/Profile/ProfileContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import {connect} from "react-redux";
 import preloaderLarge from "./imgs/preloaderLarge.svg"
+import preloaderSmall from "./imgs/preloaderSmall.svg"
 import {initializeApp} from "./Redux/app-reducer";
 import UsersContainer from "./components/Users/UsersContainer";
 import LoginContainer from "./components/Login/LoginContainer";

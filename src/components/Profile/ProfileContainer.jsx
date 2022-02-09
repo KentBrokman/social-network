@@ -27,7 +27,7 @@ const ProfileContainer = (props) => {
                     height: '100%',
                     display: 'flex',
                     justifyContent: 'center',
-                    alignContent: 'center'
+                    alignItems: 'center'
                 }}>
                     <img src={preloaderLarge}/>
                 </div> :
